@@ -1,15 +1,27 @@
 {
-  "verb": "createSPList",
-  "listName": "Customer Tracking",
+  
+  xml1:
+  
+   {
+  'verb': 'createSPList',
+  'listName': 'Customer Tracking',
   "templateType": 100,
   "subactions": [
     {
-      "verb": "setDescription",
-      "description": "List of Customers and Orders"
+      'verb': 'setDescription',
+      'description': 'List of Customers and Orders'
     }
   ]
+}
+
 },
+
+  
 {
+  
+  xml2:
+    
+   {  
   "verb": "createSPList",
   "listName": "Documents",
   "templateType": 101,
@@ -19,4 +31,6 @@
       "description": "This is a modified default document library"
     }
   ]
+}
+
 }
